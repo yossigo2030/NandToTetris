@@ -1,6 +1,6 @@
 # NandToTetris
 In this project I built a complete computer system.
-In the first step I started from NAND and D-FLIP-FLOP gates and built from them all the simple but perfect enhancement.
+In the first step I started from NAND and D-FLIP-FLOP gates and built from them simple but perfect computer.
 The following parts appear on the computer:
 1.Boolean Logic.
 2.Boolean Arithmetic.

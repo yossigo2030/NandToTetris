@@ -26,7 +26,6 @@ Mux4Way16.hdl - out = a if sel == 00 b if sel == 01 if sel == 10 d if sel == 11
 Mux8Way16.hdl - out = a if sel == 000 b if sel == 001 h if sel == 111
 DMux4Way.hdl - {a, b, c, d} = {in, 0, 0, 0} if sel == 00 {0, in, 0, 0} if sel == 01 {0, 0, in, 0} if sel == 10 {0, 0, 0, in} if sel == 11
 DMux8Way.hdl - {a, b, c, d, e, f, g, h} = {in, 0, 0, 0, 0, 0, 0, 0} if sel == 000 {0, in, 0, 0, 0, 0, 0, 0} if sel == 001 {0, 0, 0, 0, 0, 0, 0, in} if sel == 111
-Include other files required by your project, if there are any.
 
 
 

@@ -28,4 +28,4 @@ ALU.hdl - Implementation: the ALU logic manipulates the x and y inputs
 // if (no == 1) set out = !out // bitwise not
 // if (out == 0) set zr = 1
 // if (out < 0) set ng = 1
-Include other files required by your project, if there are any.
+

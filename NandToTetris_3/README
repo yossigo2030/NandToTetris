@@ -1,0 +1,26 @@
+yossigoldberg
+===============================================================================
+
+
+===============================================================================
+
+Project 3 - Sequential Logic
+----------------------------
+
+
+Submitted Files
+---------------
+README - This file.
+a/Bit.hdl - If load[t] == 1 then out[t+1] = in[t] else out does not change (out[t+1] = out[t])
+a/PC.hdl - A 16-bit counter with load and reset control bits.
+* if (reset[t] == 1) out[t+1] = 0
+* else if (load[t] == 1) out[t+1] = in[t]
+* else if (inc[t] == 1) out[t+1] = out[t] + 1 (integer addition)
+* else out[t+1] = out[t]
+a/RAM8.hdl - choose which register to outing
+a/RAM64.hdl - choose which register to outing
+a/Register.hdl - If load[t] == 1 then out[t+1] = in[t] else out does not change
+b/RAM4K.hdl - choose which register to outing
+b/RAM16K.hdl - choose which register to outing
+b/RAM512.hdl - choose which register to outing
+Include other files required by your project, if there are any.

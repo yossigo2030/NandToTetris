@@ -1,0 +1,23 @@
+ yossigoldberg
+===============================================================================
+
+
+===============================================================================
+
+Project 6 - Assembler
+-------------------------
+
+
+Submitted Files
+---------------
+README - This file.
+Assembler - The executable.
+Makefile - A makefile for the project.
+Main.py - main program that run all the project
+Parser.py - parse the asm files and get out the exect order that computer need to complish
+Code.py - translate the order to a code
+SymbolTable.py - the tabke of symbols of the program
+Include other files required by your project, if there are any.
+
+Remarks
+-------

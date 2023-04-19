@@ -1,0 +1,31 @@
+yossigoldberg
+===============================================================================
+
+
+===============================================================================
+
+Project 2 - Boolean Arithmetic
+------------------------------
+
+
+Submitted Files
+---------------
+README - This file.
+ShiftLeft.hdl - move bit left
+ShiftRight.hdl - move bit right
+HalfAdder.hdl - Right bit of a + b Left bit of a + b
+FullAdder.hdl - Right bit of a + b + c Left bit of a + b + c
+Add16.hdl - add bitwise
+Inc16.hdl - add 1 to array
+ALU.hdl - Implementation: the ALU logic manipulates the x and y inputs
+// and operates on the resulting values, as follows:
+// if (zx == 1) set x = 0 // 16-bit constant
+// if (nx == 1) set x = !x // bitwise not
+// if (zy == 1) set y = 0 // 16-bit constant
+// if (ny == 1) set y = !y // bitwise not
+// if (f == 1) set out = x + y // integer 2's complement addition
+// if (f == 0) set out = x & y // bitwise and
+// if (no == 1) set out = !out // bitwise not
+// if (out == 0) set zr = 1
+// if (out < 0) set ng = 1
+Include other files required by your project, if there are any.

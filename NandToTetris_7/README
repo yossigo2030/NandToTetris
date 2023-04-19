@@ -1,0 +1,22 @@
+yossigoldberg
+===============================================================================
+
+
+===============================================================================
+
+Project 7 - Virtual Machine (Arithmetic)
+----------------------------------------
+
+
+Submitted Files
+---------------
+README - This file.
+VMtranslator - The executable.
+Makefile - A makefile for the project.
+Main.py - the main program that run all the project
+Parser.py - parse the file to diffrent command
+CodeWriter.py - right the exect code to the file
+Include other files required by your project, if there are any.
+
+Remarks
+-------

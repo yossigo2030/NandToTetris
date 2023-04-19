@@ -1,0 +1,59 @@
+yossigoldberg
+===============================================================================
+
+
+===============================================================================
+
+Project 1 - Boolean Logic
+-------------------------
+
+
+Submitted Files
+---------------
+README - This file.
+And.hdl - out = 1 if (a == 1 and b == 1) 0 otherwise
+Not.hdl - out = not in
+Or.hdl - out = 1 if (a == 1 or b == 1) 0 otherwise
+Xor.hdl - out = not (a == b)
+Mux.hdl - out = a if sel == 0 b otherwise
+DMux.hdl - {a, b} = {in, 0} if sel == 0 {0, in} if sel == 1
+Not16.hdl - for i=0..15: out[i] = not in[i]
+And16.hdl - for i = 0..15: out[i] = (a[i] and b[i])
+Or16.hdl - for i = 0..15 out[i] = (a[i] or b[i])
+Mux16.hdl - for i = 0..15 out[i] = a[i] if sel == 0 b[i] if sel == 1
+Or8Way.hdl - out = (in[0] or in[1] or ... or in[7])
+Mux4Way16.hdl - out = a if sel == 00 b if sel == 01 if sel == 10 d if sel == 11
+Mux8Way16.hdl - out = a if sel == 000 b if sel == 001 h if sel == 111
+DMux4Way.hdl - {a, b, c, d} = {in, 0, 0, 0} if sel == 00 {0, in, 0, 0} if sel == 01 {0, 0, in, 0} if sel == 10 {0, 0, 0, in} if sel == 11
+DMux8Way.hdl - {a, b, c, d, e, f, g, h} = {in, 0, 0, 0, 0, 0, 0, 0} if sel == 000 {0, in, 0, 0, 0, 0, 0, 0} if sel == 001 {0, 0, 0, 0, 0, 0, 0, in} if sel == 111
+Include other files required by your project, if there are any.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

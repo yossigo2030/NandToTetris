@@ -1,0 +1,18 @@
+yossigoldberg
+===============================================================================
+
+
+
+Project 5 - Computer Architecture
+---------------------------------
+
+
+Submitted Files
+---------------
+README - This file.
+ExtendAlu.hdl - add options to the jump option
+CpuMul.hdl - take care on the extra options that added in the external
+CPU.hdl - run the cpu in the computer that include alu register A and register D and the right place of the PC
+Memory.hdl - get in load address and get out address and if load is 1 get out in
+Computer.hdl - run the computer
+Include other files required by your project, if there are any.
